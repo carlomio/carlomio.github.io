@@ -1,10 +1,10 @@
 [config.site]
-title = "navfolio"
-description = "A personal navigation portfolio starter built with Astro."
-pageTitle = "navfolio | Digital Publication Space"
-pageDescription = "A calm AI-native personal publication space for notes, links, and writing."
+title = "Carlomio's Blog"
+description = "Carlomio 的个人博客 — 学习记录、技术总结与知识点沉淀"
+pageTitle = "Carlomio's Blog | 个人技术博客"
+pageDescription = "记录学习、总结技术、沉淀知识"
 repository = "https://github.com/dodolalorc/astro-navfolio"
-footerNote = "Released as an open-source starter."
+footerNote = "Built with Astro & Navfolio."
 
 [config.vibe]
 showTrail = true
@@ -23,7 +23,7 @@ preserveIndent = true
 collapseStyle = "collapsible-auto"
 
 [config.comments]
-enabled = true
+enabled = false
 provider = "giscus"
 show_on_posts = true
 
@@ -65,15 +65,12 @@ pageview = true
 comment = true
 
 [config.profile]
-name = "navfolio"
-handle = "@navfolio"
-role = "A Cat Developer"
-company = "Independent Studio"
-location = "Remote"
-email = "hello@navfolio.site"
-website = "https://astro.navfolio.site/"
-github = "https://github.com/dodolalorc/astro-navfolio"
-meta = "Open-source maintainer"
+name = "Carlomio"
+handle = "@carlomio"
+role = "Developer & Learner"
+company = ""
+location = ""
+meta = "学习记录 · 技术总结 · 知识沉淀"
 avatar = "/images/logo.png"
 
 [[config.topNav.links]]
@@ -101,22 +98,19 @@ layout = "grid"
 
 [config.home.quote]
 text = [
-  "Navigate your world,",
-  "Showcase your story,",
-  "and keep everything in one place.",
+  "记录学习，",
+  "总结技术，",
+  "沉淀知识。",
 ]
 image = "/images/logo-with-name.png"
 
 [config.home.intro]
-title = "here is navfolio"
-name = "navfolio"
+title = "here is Carlomio"
+name = "Carlomio"
 body = [
-  "The name combines \"Navigation\" and \"Portfolio\".",
-  "Navfolio prioritizes lightweight organization, seamless reading, and developer-friendly aesthetics.",
-  "It’s less a resume than a personal OS for your ideas, projects, notes, and online presence.",
-  "这个名字融合了“导航”与“作品集”。",
-  "Navfolio 专注于轻量级组织、流畅的阅读体验，以及对开发者友好的美学设计。",
-  "它不像一份简历，更像是一个属于你自己的个人操作系统——承载想法、项目、笔记与网络足迹。",
+  "这里是我的个人博客。",
+  "记录学习过程、总结技术实践、沉淀知识碎片。",
+  "学习记录 · 技术总结 · 知识点归档。",
 ]
 image = "/images/logo-cat.png"
 
